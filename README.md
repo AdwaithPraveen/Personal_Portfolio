@@ -20,16 +20,11 @@ An ultra-modern, interactive single-page portfolio designed for showcasing crede
 
 ```text
 portfolio-project/
-├── frontend/                     # Deployed Production App
-│   ├── index.html                # Structured HTML5 view layer & Spline module loading
-│   ├── app.js                    # Core interaction controller & Spline event listeners
-│   └── style.css                 # Cyber-portfolio style grids, animations & layout rules
-│
-└── backend/                      # Reference Architecture (Archived for future scale)
-    ├── main.py                   # FastAPI application initialization
-    ├── database.py               # SQLite dialect configuration & engine bindings
-    ├── schemas.py                # Pydantic data serialization types
-    └── requirements.txt          # Python dependency specifications
+── frontend/                     # Deployed Production App
+   ├── index.html                # Structured HTML5 view layer & Spline module loading
+   ├── app.js                    # Core interaction controller & Spline event listeners
+   └── style.css                 # Cyber-portfolio style grids, animations & layout rules
+
 ```
 
 ---
