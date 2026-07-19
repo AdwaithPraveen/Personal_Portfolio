@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio :: Build Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- background grid + glow layer -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar__mark">
+      <span class="dot"></span>
+      <span>~/portfolio</span>
+    </div>
+    <nav class="topbar__nav">
+      
+    </nav>
+  </header>
+
+  <!-- HERO: Spline 3D canvas -->
+  <section class="hero" id="hero">
+    <div class="hero__scene">
+      <iframe
+        class="hero__spline"
+        src="https://my.spline.design/projectpromolookatmouse-TcBgLeTmgRV5zuOjdSV4gpih/?v=2" 
+        frameborder="0"
+        width="100%"
+        height="100%"
+        loading="lazy"
+        title="Interactive 3D scene"
+      ></iframe>
+    </div>
+
+    <div class="hero__copy">
+      <p class="hero__eyebrow">// B.Tech CS &amp; Data Science  </p>
+      <h1 class="hero__title">
+        ADWAITH PRAVEEN<br />
+        <span class="hero__title-accent">My Portfolio</span>
+      </h1>
+      <p class="hero__sub">
+        A running log of projects, experiments, and things that mostly work.
+        Move the cursor around the scene — it's watching.
+      </p>
+    </div>
+  </section>
+
+  <main>
+    <!-- RESUME SECTION -->
+    <section class="resume" id="resume">
+      <div class="section-head">
+        <h2><span class="section-head__index">01</span> Resume</h2>
+        <p class="section-head__desc">The one-pager version of everything below.</p>
+      </div>
+
+      <div class="resume-placeholder">
+        <p class="resume-placeholder__label">Resume Coming Soon</p>
+        <button type="button" class="btn btn--ghost btn--outline-only" disabled>
+          download resume
+        </button>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications" id="certifications">
+      <div class="section-head">
+        <h2><span class="section-head__index">02</span> Certifications</h2>
+        <p class="section-head__desc">Courses, simulations, and one hackathon.</p>
+      </div>
+
+      <div class="cert-grid">
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">lt-edutech.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Advanced JavaScript Frontend Frameworks (Angular / React)</h3>
+            <p class="cert-card__desc">L&amp;T EduTech, First Class. CollegeConnect Programme, Nov 2025 – Mar 2026.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/ADWAITH%20PRAVEEN_Advanced%20JavaScript%20Frameworks%20(Angular).pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">deloitte.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Data Analytics Job Simulation</h3>
+            <p class="cert-card__desc">Deloitte, via Forage. Practical tasks in data analysis and forensic technology, Feb 2026.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/deloitte%20data%20analytics%20certficate.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">nptel-vr.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Foundations of Virtual Reality</h3>
+            <p class="cert-card__desc">NPTEL, IIT Madras. 12-week course, consolidated score 53%, Jul – Oct 2025.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/Foundations%20of%20Virtual%20Reality.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">infosys-network.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Network Fundamentals</h3>
+            <p class="cert-card__desc">Infosys Springboard. Course completion certificate, Feb 2026.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/network%20infosys%20certificate%202462308.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">tableau.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Tableau Advanced: Master Tableau in Data Science</h3>
+            <p class="cert-card__desc">Udemy, 10 total hours. Completed Feb 2026.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/Tableau%20certificate.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">shell.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Shell Programming</h3>
+            <p class="cert-card__desc">Udemy, 10 total hours. Completed Dec 2025.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/udemy%20certificate%204th%20sem.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card__titlebar">
+            <span class="cert-card__dot cert-card__dot--red"></span>
+            <span class="cert-card__dot cert-card__dot--yellow"></span>
+            <span class="cert-card__dot cert-card__dot--green"></span>
+            <span class="cert-card__titlebar-label">codestorm.cert</span>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Codestorm 2026 — AI Hackathon</h3>
+            <p class="cert-card__desc">Unlox, Certificate of Participation. Practical exposure to AI-powered learning systems, Jul 2026.</p>
+            <a class="cert-card__link" href="https://github.com/AdwaithPraveen/portfolio-assets/blob/main/unlox_hackathon.pdf" target="_blank" rel="noopener noreferrer">
+              view on github &rarr;
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with HTML, CSS, and mild caffeine dependency.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
