@@ -2,7 +2,7 @@
 
 An ultra-modern, interactive single-page portfolio designed for showcasing credentials, project logs, and skill certifications with a cyber-aesthetic layout. Built using a lightweight frontend stack and integrated with an interactive **Spline 3D canvas deck** that handles contextual page scrolling.
 
-🌍 **Live Website:** [portfoliofrontend-iota-seven.vercel.app](https://portfoliofrontend-iota-seven.vercel.app/)
+🌍 **Live Website:** [portfoliofrontend-iota-seven.vercel.app](https://personal-portfolio-three-plum-62.vercel.app/)
 
 ---
 
